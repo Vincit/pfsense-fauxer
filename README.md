@@ -3,7 +3,7 @@
 Simple client lib for communicating with pfSense faux-api qith node.
 
 ```js
-const FauxApi = require('./src/faux-api').FauxApi;
+const { FauxApi } = require('pfsense-fauxer');
 
 /**
  * Example how to implement your custom faux api functions

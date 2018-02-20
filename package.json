@@ -6,8 +6,8 @@
   "scripts": {
     "test": "ava tests"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mikael Lepistö <mikael.lepisto@vincit.fi>",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.17.1"
   },
@@ -15,5 +15,21 @@
     "ava": "^0.24.0",
     "body-parser": "^1.18.2",
     "express": "^4.16.2"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vincit/pfsense-fauxer.git"
+  },
+  "keywords": [
+    "pfsense",
+    "fauxapi",
+    "client"
+  ],
+  "bugs": {
+    "url": "https://github.com/Vincit/pfsense-fauxer/issues"
+  },
+  "homepage": "https://github.com/Vincit/pfsense-fauxer#readme"
 }
