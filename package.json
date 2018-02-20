@@ -1,0 +1,19 @@
+{
+  "name": "pfsense-fauxer",
+  "version": "0.1.0",
+  "description": "Node library for running pfsense faux API queries",
+  "main": "src/faux-api.js",
+  "scripts": {
+    "test": "ava tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
