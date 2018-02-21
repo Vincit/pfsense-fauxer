@@ -82,17 +82,19 @@ class FauxApi {
     return `${this.key}:${timestamp}:${nonce}:${hash}`;
   }
 
-  async functionCall(name, ...args) {
+  functionCall(name, ...args) {
     const body = {function: name};
 
     if (args && args.length > 0) {
       body.args = args;
     }
 
-    return (await this.axios.post('/?action=function_call', {
-      function: name,
-      args
-    })).data;
+    return this.axios
+      .post('/?action=function_call', {
+        function: name,
+        args
+      })
+      .then(res => res.data);
   }
 }
 
