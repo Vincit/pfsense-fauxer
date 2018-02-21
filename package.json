@@ -1,6 +1,6 @@
 {
   "name": "pfsense-fauxer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Node library for running pfsense faux API queries",
   "main": "src/faux-api.js",
   "scripts": {
